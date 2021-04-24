@@ -1,5 +1,93 @@
 <template>
-   <h1>Hello world</h1>
+  
+       <div class="container">
+  <div class="row">
+    <div class="col"><div class="container">
+  <div class="row row-cols-2">
+    <div class="col-12 text-center">
+       <h2 class="">ABOUT ME</h2>
+       <h6>HOPE TO KNOW YOU AFTER</h6>
+
+    </div>
+   
+    <div class="col-12 ">
+
+        <div class="text-center ">
+  <img src="../assets/photo.jpg" class="img-fluid1" alt="...">
+</div>
+    </div>
+  </div>
+</div></div>
+    
+  </div>
+  <div class="row " style="">
+    <div class="col-lg-8 col-md-6 col-xd-12 one text-center "  >
+        <h4 class="text-center">WHO AMI?</h4>
+     <p class="text-capitalize"><span> Lorem ipsum dolor,
+            sit amet consectetur adipisicing elit. 
+             Ex eaque eveniet repudiandae,   
+           Culpa unde cumque dicta obcaecati fuga   
+            itaque eveniet dolore, necessitatibus    
+             sit amet consectetur adipisicing elit. 
+             Ex eaque eveniet repudiandae,   
+           Culpa unde cumque dicta obcaecati fuga   
+      
+              
+              
+             tenetur magnam quas voluptatibus quam . </span>
+        <p class="text-capitalize">  Ex eaque eveniet repudiandae, commodi rerum 
+           Culpa unde cumque dicta obcaecati fuga exer 
+            itaque eveniet dolore, necessitatibus pers  
+            sit amet consectetur adipisicing elit. 
+             Ex eaque eveniet repudiandae,   
+           Culpa unde cumque dicta obcaecati fuga   
+            itaque eveniet dolore, necessitatibus    
+             sit amet consectetur adipisicing elit. 
+             Ex eaque eveniet repudiandae,   
+           Culpa unde cumque dicta obcaecati fuga   
+              Culpa unde cumque dicta obcaecati fuga exer 
+            itaque eveniet dolore, necessitatibus pers  
+            sit amet consectetur adipisicing elit. 
+             Ex eaque eveniet repudiandae,   
+           Culpa unde cumque dicta obcaecati fuga   
+            itaque eveniet dolore, necessitatibus    
+             sit amet consectetur adipisicing elit. 
+             Ex eaque eveniet repudiandae,   
+           Culpa unde cumque dicta obcaecati fuga  
+      
+            
+             </p>  </div>
+            
+    <div class="col-lg-4 col-md-6 col-xd-12 text-capitalize "  >
+            <h4 class="text-center">HUGO BOLLON</h4> <br>
+             
+          
+                 <div class="medi">
+                     <p class=""> <strong>Email:</strong> hgmaugo.bollon@gmail.com </p>  
+              <p class=""> <strong>Phone:</strong> +121 6737363839939</p>  
+               <p class=""> <strong>City:</strong>Youssoufia,Maroc</p>  
+                <p class=""> <strong>Languages:</strong> Francais,Anglais </p>  
+             
+           
+         
+                 </div>
+                 
+              <ul class="text-center">
+                  <li>
+                      <a href=""> 
+                                  <img src="https://img.icons8.com/material-sharp/24/000000/facebook-circled--v3.png"/>
+                                  <img src="https://img.icons8.com/windows/32/000000/instagram-new.png"/>
+                                  <img src="https://img.icons8.com/ios-filled/26/000000/linkedin.png"/>
+                                  <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
+                       </a>
+                   
+                   </li>        
+              </ul>
+         
+
+        </div>
+  </div>
+</div>
 </template>
 
 <script>
@@ -9,5 +97,22 @@ export default {
 </script>
 
 <style>
+.img-fluid1{
+    width: 20%;
+    border-radius: 50%;
+}
+span{
+    color:#fd79a8;
+}
+ul{
+    list-style: none;
+  
+}
 
+    
+@media only screen and (max-width: 600px) {
+  .medi{
+   margin-left:20% ;
+  }
+}
 </style>
