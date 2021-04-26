@@ -68,7 +68,6 @@ h4,h3{
     height: 70vh;
     position: absolute;
     left: 50%;
-    top: 42%;
 }
 .left{
     text-align: end;
