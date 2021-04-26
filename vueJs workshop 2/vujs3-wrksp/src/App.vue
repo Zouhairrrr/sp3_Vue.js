@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="active">
       <Home/>
       <About/>
       <Experience/>
@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import Home from "./components/Home";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import MyProject from "./components/MyProject";
-import Footer from "./components/Footer";
+import Home from "./comp/Home";
+import About from "./comp/About";
+import Experience from "./comp/Experience";
+import Skills from "./comp/Skills";
+import MyProject from "./comp/MyProject";
+import Footer from "./comp/Footer";
 
 
 
@@ -31,3 +31,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+#active{
+  overflow: hidden;
+}
+</style>
