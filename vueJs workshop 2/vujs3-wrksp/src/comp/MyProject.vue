@@ -2,12 +2,12 @@
    <div class="container-fluid" style="background-color: #2c3e50">
     <!-- Content here -->
     <div class="container text-white">
-      <h1 class="text-center"><strong>My-Project</strong></h1>
-      <h5 class="text-center">This My Story</h5>
+      <h1  data-aos="fade-down"  class="text-center"><strong>My-Project</strong></h1>
+      <h5  data-aos="fade-down" class="text-center">This My Story</h5>
       <hr />
       <br />
 
-      <div class="container" style="width: 50%">
+      <div data-aos="fade-right" class="container" style="width: 50%">
         <div class="row">
           <div class="col-sm">
             <div class="d-grid gap-2 d-md-block">
@@ -37,7 +37,7 @@
         </div>
       </div>
 
-      <div class="card mb-3 container" style="width: 80%">
+      <div data-aos="fade-right" class="card mb-3 container" style="width: 80%">
         <img
           src="../assets/projects/edlib.jpg"
           class="card-img-top"
@@ -56,7 +56,7 @@
           </div>
         </div>
       </div>
-      <div class="container" style="width: 50%">
+      <div data-aos="fade-right" class="container" style="width: 50%">
         <div class="row">
           <div class="col-sm">
             <div class="d-grid gap-2 d-md-block">
@@ -86,7 +86,7 @@
         </div>
       </div>
 
-      <div class="card mb-3 container" style="width: 80%">
+      <div data-aos="fade-right" class="card mb-3 container" style="width: 80%">
         <img
           src="../assets/projects/gyroball.jpg"
           class="card-img-top"
@@ -105,7 +105,7 @@
           </div>
         </div>
       </div>
-      <div class="container" style="width: 50%">
+      <div data-aos="fade-right" class="container" style="width: 50%">
         <div class="row">
           <div class="col-sm">
             <div class="d-grid gap-2 d-md-block">
@@ -150,7 +150,7 @@
           </div>
         </div>
       </div>
-      <div class="container" style="width: 50%">
+      <div data-aos="fade-right" class="container" style="width: 50%">
         <div class="row">
           <div class="col-sm">
             <div class="d-grid gap-2 d-md-block">
@@ -180,7 +180,7 @@
         </div>
       </div>
 
-      <div class="card mb-3 container" style="width: 80%">
+      <div  data-aos="fade-right" class="card mb-3 container" style="width: 80%">
         <img
           src="../assets/projects/boursoweb.jpg"
           class="card-img-top"

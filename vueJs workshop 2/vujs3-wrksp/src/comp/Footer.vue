@@ -7,9 +7,9 @@
     </div>
     <div class="row mol">
       <div class="col-md-1"><i class="fab fa-facebook-f"></i></div>
+      <div class="col-md-1"><i class="fab fa-linkedin-in"></i></div>
       <div class="col-md-1"><i class="fab fa-instagram"></i></div>
       <div class="col-md-1"><i class="fab fa-github"></i></div>
-      <div class="col-md-1"><i class="fab fa-linkedin-in"></i></div>
     </div>
   </footer>
 </template>

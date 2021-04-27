@@ -1,7 +1,7 @@
 <template>
-  <div class="container-fluid bg-dark">
+  <div data-aos="fade-left" class="container-fluid bg-dark">
       <div class="heading ">
-          <h1 class="text-center">Experience</h1>
+          <h1  data-aos="fade-down"  class="text-center">Experience</h1>
           <p class="text-center">PROFESSIONEL AND ACADEMIC</p>
         <hr style="width: 14%;border-bottom: 2px solid white;">
       </div>

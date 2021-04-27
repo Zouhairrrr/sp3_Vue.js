@@ -6,13 +6,13 @@
       <div class="col">
         <div class="container">
           <div class="row row-cols-2">
-            <div class="col-12 text-center">
-              <h2 class="">ABOUT ME</h2>
+            <div data-aos="fade-down" class="col-12 text-center">
+              <h2  class="">ABOUT ME</h2>
               <h6>HOPE TO KNOW YOU AFTER</h6>
             </div>
 
             <div class="col-12">
-              <div class="text-center">
+              <div data-aos="fade-left" class="text-center">
                 <img src="../assets/photo.jpg" class="img-fluid1" alt="..." />
               </div>
             </div>
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div class="row" style="">
+    <div data-aos="fade-left" class="row" style="">
       <div class="col-lg-8 col-md-6 col-xd-12 one text-center ">
         <h4 class="">WHO AMI?</h4>
         <p class="text-uppercase text-justify">
