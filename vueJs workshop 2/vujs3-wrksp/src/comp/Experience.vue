@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid ">
+  <div class="container-fluid bg-dark">
       <div class="heading ">
           <h1 class="text-center">Experience</h1>
           <p class="text-center">PROFESSIONEL AND ACADEMIC</p>
@@ -46,7 +46,7 @@ export default {
 
 .container-fluid{
     min-height: 100vh !important;
-    background-color: rgb(92, 170, 153);
+   
     padding: 2rem;
 }
 .row{
