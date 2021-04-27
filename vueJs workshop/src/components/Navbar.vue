@@ -4,8 +4,6 @@
       <a class="navbar-brand abc" href="#">YouCode YOUSSOUFIA</a>
       <div class="a collapse navbar-collapse" id="navbarSupportedContent">
         <form class="b form-inline my-2 my-lg-0">
-          <!-- <router-link class="btn btn-primary" to="/">SingUp</router-link> |
-        <router-link class="btn btn-primary" to="/login">SingIn</router-link> -->
           <router-link
             to="/"
             class="btn btn-outline-success my-2 my-sm-0"
