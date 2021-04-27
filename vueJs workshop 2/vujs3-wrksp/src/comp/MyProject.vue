@@ -1,13 +1,18 @@
 <template>
-   <div class="container-fluid" style="background-color: #2c3e50">
+  <div  class="container-fluid" style="background-color: #2c3e50">
     <!-- Content here -->
-    <div class="container text-white">
-      <h1  data-aos="fade-down"  class="text-center"><strong>My-Project</strong></h1>
-      <h5  data-aos="fade-down" class="text-center">This My Story</h5>
+    <div  class="container text-white">
+      <div>
+         <h1  data-aos="fade-down" class="text-center"><strong>My-Project</strong></h1>
+      <h5 class="text-center">This My Story</h5>
+      </div>
+     
       <hr />
       <br />
 
-      <div data-aos="fade-right" class="container" style="width: 50%">
+      <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="container" style="width: 50%">
         <div class="row">
           <div class="col-sm">
             <div class="d-grid gap-2 d-md-block">
@@ -37,7 +42,9 @@
         </div>
       </div>
 
-      <div data-aos="fade-right" class="card mb-3 container" style="width: 80%">
+      <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="card mb-3 container" style="width: 80%">
         <img
           src="../assets/projects/edlib.jpg"
           class="card-img-top"
@@ -56,7 +63,10 @@
           </div>
         </div>
       </div>
-      <div data-aos="fade-right" class="container" style="width: 50%">
+      <div 
+      data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="container" style="width: 50%">
         <div class="row">
           <div class="col-sm">
             <div class="d-grid gap-2 d-md-block">
@@ -77,7 +87,8 @@
               </nav>
             </div>
           </div>
-          <div class="col-sm">
+          <div 
+          class="col-sm">
             <button class="btn btn-primary" type="button">Video Game</button>
           </div>
           <div class="col-sm">
@@ -86,7 +97,9 @@
         </div>
       </div>
 
-      <div data-aos="fade-right" class="card mb-3 container" style="width: 80%">
+      <div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  class="card mb-3 container" style="width: 80%">
         <img
           src="../assets/projects/gyroball.jpg"
           class="card-img-top"
@@ -105,7 +118,9 @@
           </div>
         </div>
       </div>
-      <div data-aos="fade-right" class="container" style="width: 50%">
+      <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="container" style="width: 50%">
         <div class="row">
           <div class="col-sm">
             <div class="d-grid gap-2 d-md-block">
@@ -135,7 +150,9 @@
         </div>
       </div>
 
-      <div class="card mb-3 container" style="width: 80%">
+      <div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="card mb-3 container" style="width: 80%">
         <img src="../assets/projects/urba.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-text text-black-50">
@@ -150,7 +167,9 @@
           </div>
         </div>
       </div>
-      <div data-aos="fade-right" class="container" style="width: 50%">
+      <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="container" style="width: 50%">
         <div class="row">
           <div class="col-sm">
             <div class="d-grid gap-2 d-md-block">
@@ -180,7 +199,9 @@
         </div>
       </div>
 
-      <div  data-aos="fade-right" class="card mb-3 container" style="width: 80%">
+      <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="card mb-3 container" style="width: 80%">
         <img
           src="../assets/projects/boursoweb.jpg"
           class="card-img-top"
@@ -203,17 +224,15 @@
   </div>
 </template>
 
-<script>
 
+<script >
 export default {
-    
-    name: "MyProject",
-}
+  name: "myprojet",
+};
 </script>
-
-<style>
-hr{
-    border: 1px solid;
-    width: 40%;
+<style scoped>
+hr {
+  border: 1px solid;
+  width: 40%;
 }
 </style>
